@@ -1,3 +1,4 @@
 comment = 'MongoDB-like read projections for JSONB'
 default_version = '1.0'
+module_pathname = '$libdir/pg_projection'
 relocatable = true
