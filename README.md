@@ -1,5 +1,7 @@
 # pg_projection
 
+![pg_projection logo](./logo.png)
+
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v12+-blue.svg)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![JSONB](https://img.shields.io/badge/JSONB-Native-orange.svg)]()

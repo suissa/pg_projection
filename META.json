@@ -1,0 +1,30 @@
+{
+  "name": "pg_projection",
+  "abstract": "MongoDB-like read projections for JSONB in PostgreSQL",
+  "description": "This extension provides a way to extract specific fields from JSONB documents using a projection-like syntax similar to MongoDB.",
+  "version": "1.0",
+  "maintainer": ["jeancarlonascimento@allascode.institute>"],
+  "license": "mit",
+  "provides": {
+    "pg_projection": {
+      "abstract": "MongoDB-like read projections for JSONB in PostgreSQL",
+      "file": "pg_projection--1.0.sql",
+      "docfile": "README.md",
+      "version": "1.0"
+    }
+  },
+  "prereqs": { "runtime": { "requires": { "PostgreSQL": "11.0.0" } } },
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/suissai/pg_projection/issues"
+    },
+    "repository": {
+      "url": "https://github.com/suissai/pg_projection.git",
+      "web": "https://github.com/suissai/pg_projection",
+      "type": "git"
+    }
+  },
+  "generated_by": "Manually generated for pg_projection",
+  "meta-spec": { "version": "1.0.0", "url": "https://pgxn.org/meta/spec.txt" },
+  "tags": ["projections", "jsonb", "mongodb", "utility", "read", "cqrs"]
+}
