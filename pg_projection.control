@@ -1,0 +1,3 @@
+comment = 'MongoDB-like read projections for JSONB'
+default_version = '1.0'
+relocatable = true
