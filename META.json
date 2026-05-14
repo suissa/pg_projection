@@ -3,7 +3,7 @@
   "abstract": "MongoDB-like read projections for JSONB in PostgreSQL",
   "description": "This extension provides a way to extract specific fields from JSONB documents using a projection-like syntax similar to MongoDB.",
   "version": "1.0",
-  "maintainer": ["jeancarlonascimento@allascode.institute>"],
+  "maintainer": ["<jeancarlonascimento@allascode.institute>"],
   "license": "mit",
   "provides": {
     "pg_projection": {
